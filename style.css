@@ -7,11 +7,8 @@
     width: 100%;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
     background-position: center;
-    background-size: cover
-    ;
+    background-size: cover;
     height: 100vh;
-    background-repeat: repeat-y;
-    position: fixed;
 }
 
 .navbar{
@@ -38,7 +35,7 @@
 
 .menu{
     width: 400px;
-    float: right;
+    float: left;
     height: 70px;
 }
 
@@ -162,6 +159,29 @@ ul li a:hover{
 .cn:hover{
     background-color: #fff;
 }
+.content .submit{
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+
+.content .submit a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+
+.su:hover{
+    background-color: #fff;
+}
 
 .content span{
     color: #ff7200;
@@ -217,7 +237,7 @@ ul li a:hover{
     font-family: Arial;
 }
 
-.submit{
+.btnn{
     width: 240px;
     height: 40px;
     background: #ff7200;
@@ -229,13 +249,11 @@ ul li a:hover{
     color: #fff;
     transition: 0.4s ease;
 }
-.submit:hover{
-    cursor: pointer;
+.btnn:hover{
     background: #fff;
     color: #ff7200;
-    font-weight: bold;
 }
-.submit a{
+.btnn a{
     text-decoration: none;
     color: #000;
     font-weight: bold;
@@ -259,7 +277,7 @@ ul li a:hover{
 }
 .icons a{
     text-decoration: normal;
-    color: rgb(165, 26, 26);
+    color: #fff;
 }
 .icons ion-icon{
     color: #fff;
